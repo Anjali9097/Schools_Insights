@@ -1,12 +1,13 @@
 # Schools_Insights
 
-**Objective**:
+ 
+### Objective
 The primary goal was to analyze and transform "Education and training statistics for the UK"
 data to gain insights into various educational metrics, such as increase in the number of schools over time, student demographics, performance, and school distributions, and to prepare the data for further analysis and reporting.
 
-**Data Sources**: [Download Here](https://content.explore-education-statistics.service.gov.uk/api/releases/3255e10a-92c5-4cc0-adb1-08db7e23d3a0/files)
+### Data Source: [Download Here](https://content.explore-education-statistics.service.gov.uk/api/releases/3255e10a-92c5-4cc0-adb1-08db7e23d3a0/files)
 
-**ETL (Extract, Transform, Load) Process**:
+### ETL (Extract, Transform, Load) Process
 
 1. **Extract**:
    - Data was extracted from PostgreSQL databases.
@@ -22,7 +23,7 @@ data to gain insights into various educational metrics, such as increase in the 
    - Loaded the transformed data into the PostgreSQL database for easy access and analysis.
    - Ensured data integrity and consistency during the loading process.
 
-**Data Validation**:
+### Data Validation
 
 1. **Schema Validation**:
      - Null Value Check: For each column, the data was checked for the presence of null values. If any null values were found, a warning message was generated indicating which column contained null values.
@@ -32,7 +33,7 @@ data to gain insights into various educational metrics, such as increase in the 
 2. **Completeness Check**:
      - Calculate the percentage of missing values for each column.
   
-**Data Analysis**:
+### Data Analysis
 
 1. **Descriptive Statistics**:
      - Evaluated school distribution metrics, such as the number of schools across time and region.

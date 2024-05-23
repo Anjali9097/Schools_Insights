@@ -31,3 +31,16 @@ data to gain insights into various educational metrics, such as increase in the 
 
 2. **Completeness Check**:
      - Calculate the percentage of missing values for each column.
+  
+**Data Analysis**:
+
+1. **Descriptive Statistics**:
+     - Evaluated school distribution metrics, such as the number of schools across time and region.
+
+2. **Visualization**:
+    - Created visualizations to illustrate key insights, such as the distribution of schools across regions, and the total number of schools  trends over time.
+    - Used tools like Power BI and Python Matplotlib for interactive and static visualizations.
+
+3. **Insights**:
+     - Identified trends in school formation across periods. 
+     - Highlighted disparities in educational outcomes based on demographics and regions.

@@ -4,7 +4,7 @@
 The primary goal was to analyze and transform "Education and training statistics for the UK"
 data to gain insights into various educational metrics, such as increase in the number of schools over time, student demographics, performance, and school distributions, and to prepare the data for further analysis and reporting.
 
-**Data Sources**: "C:\Users\anjal\Desktop\Arbor_\ETS23-24\data\uk_schools.csv"
+**Data Sources**: [Download Here](https://content.explore-education-statistics.service.gov.uk/api/releases/3255e10a-92c5-4cc0-adb1-08db7e23d3a0/files)
 
 **ETL (Extract, Transform, Load) Process**:
 
